@@ -1,0 +1,84 @@
+.header-catalago{
+    background-image: url(/imagen/captainmarvelheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    padding-top: 40px;
+    color: #fff;
+    padding: 40PX;
+    
+
+}
+
+.catalogo{
+   text-align: center;
+   padding-top: 40px;
+}
+
+.image-title-catalogo{
+    width: 400px;
+    padding-top: 500px;
+    padding-left: 400px;
+}
+
+.catalogo-produtos{
+    display: flex;
+    justify-content: center;
+}
+
+.card-brinquedo{
+    max-width: 300px;
+}
+
+.card-paragrafo{
+    text-align: center;
+    font-size:16px;
+    width: 70%;
+    justify-content: center;
+    letter-spacing: 0.5;
+}
+span{
+    padding: 40px;
+    opacity: 0.7;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.bt-bt{
+    padding-left: 35px;
+
+}
+.butoon-comprar{
+    width: 100px;
+    background-color: #fc3836;
+    color: #fff;
+    padding: 5px;
+    border-color: #fc3836;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    height: 40px;
+}
+
+.section-produtos{
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px){
+
+    .header-catalago{
+        background-image: url(/imagen/captainmarvelheader_Mobile.jpg);
+    }
+    .catalogo-produtos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-image{
+        display: none;
+    }
+}

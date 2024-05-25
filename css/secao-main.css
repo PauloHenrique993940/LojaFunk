@@ -1,0 +1,127 @@
+.header-container{
+    background-image: url(/imagen/thor_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    max-width: 100%;
+    padding-top: 40px;
+    
+    
+    
+}
+
+.about-title{
+    color: var(--primeiro-titulo);
+    text-align: center;
+}
+
+.about-text{
+    float: right;
+    width: 600px;
+    margin-top: 300px;
+    margin-right: 20px;
+    font-size: 24px;
+    color: var(--primeiro-titulo);
+    padding: 60px;
+
+}
+
+.custom-hr {
+    width: 5%; /* Ajuste a largura  */
+    margin: 0 auto; /*  centraliza a linha */
+    border: 1px solid #fff; /* Ajuste a cor e a espessura da borda conforme necessário */
+    margin-top: 10px;
+}
+
+/* Seção dos Bonecos */
+
+.catalog-container{
+
+    height: 80vh;
+    max-width: 100%;
+    padding-top: 40px;
+
+}
+
+.catalog-title{
+    color: var(--segundo-titulo);
+    text-align: center;
+}
+
+.custon-black{
+    width: 5%; /* Ajuste a largura  */
+    margin: 0 auto; /*  centraliza a linha */
+    border: 1px solid var( --stripe);
+    margin-top: 10px;
+}
+
+.card-bonecos{
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+.catalog-text{
+
+    width: 600px;
+    margin-top: 200px;
+    margin-right: 100px;
+    font-size: 24px;
+    float: right;
+   
+
+}
+
+.catalog-text p {
+    margin-bottom: 20px; /* Ajuste este valor conforme necessário */
+}
+
+.btn{
+    background: linear-gradient( #fe7467, #fc3836);
+    border-radius:20px;
+    padding: 10px;
+    color: var(--primeiro-titulo);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+ {
+
+    .header-container {
+        justify-content: center;
+        background-image: url(/imagen/thor-mobile-section.jpg);
+        background-size: cover; /* Adicionei para garantir que a imagem cobre toda a área */
+        background-position: center; /* Adicionei para centralizar a imagem */
+    }
+    .about-text{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .catalog-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-bonecos{
+        max-width: 100%;
+    
+
+    }
+
+    .catalog-text{
+        margin-top: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    
+
+}

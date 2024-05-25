@@ -1,0 +1,93 @@
+.header{
+    background-image: url(/imagen/spidermanheader.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    padding: 40px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-navigation {
+    display: flex;
+    padding: 40px;
+    list-style-type: none;
+}
+
+.link-item{
+    display: flex;
+    padding: 30px;
+    text-decoration: none;
+    color: var(--primeiro-titulo);
+    font-size: 20px;
+}
+
+
+.title-image{
+    left: 30%;
+    
+}
+
+.image-title{
+    
+    width: 300px;
+    margin-top: 100px;
+    padding: 100px;
+    
+
+}
+@media screen and (max-width: 768px) {
+
+    .header{
+        background-image: url(/imagen/spidermanheader_mobile.jpg);
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-header {
+        margin-bottom: 20px; /* Espaçamento entre logo e navegação */
+    }
+
+    .navigation {
+        width: 100%; /* Ocupa toda a largura disponível */
+    }
+
+    .list-navigation {
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .link-item {
+        padding: 20px;
+        font-size: 18px; /* Ajuste conforme necessário */
+    }
+
+    .title-image {
+        margin-top: 20px;
+        padding-left: 0px;
+        
+    }
+
+    .image-title{
+        max-width: 200px;
+    }
+
+  
+}
+
+
